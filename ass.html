@@ -1,8 +1,9 @@
 <html>
 <head></head>
 <body>
+  <b>Please input:</b><br/>
 <script>
-function sync(){
+function input(){
 var s = document.getElementById("w1");
 var i = document.getElementsByTagName("INPUT");
 for(var y = 0; y < i.length; y++){
@@ -11,11 +12,11 @@ i[y].value = s.value;
 }
 </script>
 
-<input type="text" name="in1" id="w1" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in2" id="w2" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in3" id="w3" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in4" id="w4" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in5" id="w5" onkeyup="sync()"></input><br/><br/>
+<input type="text" name="in1" id="w1" onkeyup="input()"></input><br/><br/>
+<input type="text" name="in2" id="w2" onkeyup="input()"></input><br/><br/>
+<input type="text" name="in3" id="w3" onkeyup="input()"></input><br/><br/>
+<input type="text" name="in4" id="w4" onkeyup="input()"></input><br/><br/>
+<input type="text" name="in5" id="w5" onkeyup="input()"></input><br/><br/>
 
 
 </body>
