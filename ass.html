@@ -3,19 +3,19 @@
 <body>
 <script>
 function sync(){
-var s = document.getElementById("input1");
+var s = document.getElementById("w1");
 var i = document.getElementsByTagName("INPUT");
-for(var x = 0; x < i.length; x++){
-i[x].value = s.value;
+for(var y = 0; y < i.length; y++){
+i[y].value = s.value;
 }
 }
 </script>
 
-<input type="text" name="in1" id="input1" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in2" id="input2" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in3" id="input3" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in4" id="input4" onkeyup="sync()"></input><br/><br/>
-<input type="text" name="in5" id="input5" onkeyup="sync()"></input><br/><br/>
+<input type="text" name="in1" id="w1" onkeyup="sync()"></input><br/><br/>
+<input type="text" name="in2" id="w2" onkeyup="sync()"></input><br/><br/>
+<input type="text" name="in3" id="w3" onkeyup="sync()"></input><br/><br/>
+<input type="text" name="in4" id="w4" onkeyup="sync()"></input><br/><br/>
+<input type="text" name="in5" id="w5" onkeyup="sync()"></input><br/><br/>
 
 
 </body>
